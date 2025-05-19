@@ -1,0 +1,46 @@
+/* Global styles for all pages */
+
+/* Style the body tag */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the header tag */
+header {
+  background-color: #4CAF50; /* Example green background */
+}
+
+/* Style the nav tag */
+nav {
+  background-color: #ffee00; /* Example dark background */
+}
+
+/* Style the main tag */
+main {
+  background-color: #f9f9f9; /* Light gray background */
+  font-size: 18px;
+}
+
+/* Style the footer tag */
+footer {
+  background-color: #00bfff; /* Darker background for footer */
+}
+
+/* Style the li tag */
+li {
+  display: inline-block;
+  width: 120px;
+}
+
+/* Style the h1 tag */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #ffffff;
+}
+
+/* Style the p tag */
+p {
+  line-height: 1.6;
+}
