@@ -1,46 +1,70 @@
-/* Global styles for all pages */
-
-/* Style the body tag */
+/* ----------- General Body Styles ----------- */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-/* Style the header tag */
+/* ----------- Header Styles ----------- */
 header {
-  background-color: #4CAF50; /* Example green background */
+  background-color: #4CAF50;
+  padding: 20px;
 }
 
-/* Style the nav tag */
+/* ----------- Navigation Styles ----------- */
 nav {
-  background-color: #ffee00; /* Example dark background */
+  background-color: #333;
+  padding: 10px;
 }
 
-/* Style the main tag */
-main {
-  background-color: #f9f9f9; /* Light gray background */
-  font-size: 18px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Style the footer tag */
-footer {
-  background-color: #00bfff; /* Darker background for footer */
-}
-
-/* Style the li tag */
-li {
+nav li {
   display: inline-block;
-  width: 120px;
+  width: 100px;
 }
 
-/* Style the h1 tag */
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* ----------- Main Content Styles ----------- */
+main {
+  background-color: #f4f4f4;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* ----------- Footer Styles ----------- */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ----------- Heading Styles ----------- */
 h1 {
   text-align: center;
   font-family: 'Georgia', serif;
-  color: #ffffff;
+  color: #2c3e50;
+  margin: 0;
 }
 
-/* Style the p tag */
+/* ----------- Paragraph Styles ----------- */
 p {
   line-height: 1.6;
 }
